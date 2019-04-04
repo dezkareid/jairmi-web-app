@@ -6,6 +6,9 @@
   "author": "DezkaReid <elmaildeldezkareid@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1",
