@@ -1,0 +1,12 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+script:
+  - yarn run build
+deploy:
+  provider: firebase
+  project: dezkacv
+  skip_cleanup: true
+  token:
+    secure: agS6JL9z2p3WjzPl03xK0Dm0LFLVO5VygxIIqQ0On/lMmwS7N2g896JXU4WTrvTN43bOhROWS90mLK+h6PsqePHlKtRluc8K6CMA1ZzYzciMQq7kyE7a2AaJ6/xq9PiQtjJ0AqEDxXx/S7mH0Mbvny6LuS/qDNpXePlQEq1KwbPGe5vD445LNCPx+OAmNbtoiMKJCvnKyz2L099t/C5tDM8kCWEjyzL71v2zJDQrkj/MDvzzrgH1ooZc9BoetJrJ9WSuaHMbvT5MA3VZBLPIY8+gMefagqBAtagrU/DlUNXAbxH3oUQ9p1853pRbFn1kYqumCYsfQ2VVQHf4s8Qo0zcmub/pddlbYc97+a1PUEib8rcLxqDQzPewHBtLt7TKUc9kFXYm+2GJXye/YdHE6d3XG9VWryi1krRKFiExXZQOjJKygD6Tm3SHzAJVZVVO43zelCVUP7mHrkV3Tp2/aEi7WJjrK4L/cUoNNUvDWuC+l3OlnMA4sPbQqPiB64E8B/jsEZPMfzyih0HXKtvh8u+FLpaHWj8asX0et9J3KTosGv8vY1c6fIqw6koMohJ+vEd9dj3h6r4WbB6hSbq1xe6FMSUL26I61Fen+EVq18ySRgznK+fu3CLai+l+sFy7ohfBfzHLwwAoTDrn693lSxFA5zygdLXqKZi+IKyEG+Y=
